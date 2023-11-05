@@ -80,6 +80,10 @@ main {
     margin: 0 200px;
 }
 
+section {
+    margin-top: 130px;
+}
+
 /* About section style */
 .about {
     margin-top: 130px;
@@ -90,11 +94,10 @@ main {
 }
 
 .section-title {
-
+    text-align: center;
     font-size: 35px;
-    font-style: normal;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .section-description {
@@ -119,4 +122,87 @@ main {
     color: var(--Dark-02, #474747);
     font-size: 20px;
     font-weight: 700;
+}
+
+/* what i do styles */
+.what-i-do {
+    margin-top: 130px;
+
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skills {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: var(--Dark-03, #757575);
+
+}
+
+/* resume style */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title {
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: var(--Dark-03, #757575);
+
+}
+.resume-button{
+    margin-top: 70px;
+    text-align: center;
+}
+/* contact style */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a{
+    text-decoration: none;
 }
